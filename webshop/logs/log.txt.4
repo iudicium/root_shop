@@ -1,0 +1,71 @@
+INFO     2023-08-02 11:25:49 0f8ba079998f47209532cc1641ba0e50  22034 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+INFO     2023-08-02 11:25:49 820c7439e33f4f19941c88e0e504e306  22034 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+WARNING  2023-08-02 11:25:49 0f8ba079998f47209532cc1641ba0e50  22034 --- 18       [app_basket.views] list                     : None
+ERROR    2023-08-02 11:25:52 f342238ca230494f85ea83a0e73b4a64  22034 --- 241      [django.request] log_response             : Internal Server Error: /api/sign-out
+Traceback (most recent call last):
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'int'>`
+INFO     2023-08-02 11:25:52 52354c47066e477cb515e12fab129f30  22034 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:25:52 0d7dae42dc894a60b51fa68947887f53  22034 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:25:52 3da9addc392a4f7cb1c6fb826752b0f9  22034 --- 155      [app_catalog.views] list                     : Accessing popular items view set.
+INFO     2023-08-02 11:25:52 71e7f5319cd5421890bdd7faf658f30e  22034 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:25:52 71e7f5319cd5421890bdd7faf658f30e  22034 --- 18       [app_basket.views] list                     : {}
+INFO     2023-08-02 11:25:52 5d26ccf44b1346d392f643f527ccf24f  22034 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:25:56 dfd0dd0b893c42dd81abd179550c0f33  22034 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:25:56 dfd0dd0b893c42dd81abd179550c0f33  22034 --- 18       [app_basket.views] list                     : {}
+INFO     2023-08-02 11:25:56 73544dcbd9614264a3e99f20068218c1  22034 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:25:58 d080abaaf60644fc8b01795a1cb9c77e  22034 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:25:58 d080abaaf60644fc8b01795a1cb9c77e  22034 --- 18       [app_basket.views] list                     : {}
+INFO     2023-08-02 11:25:58 d43a47026dcf492991c892f7876d53bc  22034 --- 50       [app_catalog.views] list                     : Tag list retrieved successfully.
+INFO     2023-08-02 11:25:58 d6269cbc2a204309a301e7753ca29ecf  22034 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:25:58 7d8466247bb44029a48bb04d90f61f1e  22034 --- 103      [app_catalog.views] list                     : Product list retrieved successfully.
+WARNING  2023-08-02 11:25:59 7738f360f4b549b289847d173655afa4  22034 --- 241      [django.request] log_response             : Not Found: /product/img/icons/user_icon.svg
+INFO     2023-08-02 11:25:59 8b216cc465fb4755adcf5b510d2702d5  22034 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:25:59 8b216cc465fb4755adcf5b510d2702d5  22034 --- 18       [app_basket.views] list                     : {}
+INFO     2023-08-02 11:25:59 1cabab67d1c74fec9edf831591d12c8f  22034 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:25:59 25ea91c1d0d34952a3831ceb7eff85ef  22034 --- 68       [app_catalog.views] retrieve                 :  Successfully accessed product with pk=2
+INFO     2023-08-02 11:26:00 7b271d6dbbfb4c69ab5290e060644f63  22034 --- 32       [app_basket.views] create                   : {'2': {'quantity': 1, 'price': 5000.0}}
+INFO     2023-08-02 11:26:00 7b271d6dbbfb4c69ab5290e060644f63  22034 --- 36       [app_basket.views] create                   : Cart created successfully: Added 1 units of 'Stuxnet Hoodie' to the cart.
+INFO     2023-08-02 11:26:02 66669cc4f9c94ac2af34d832aa0b6c56  22034 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+INFO     2023-08-02 11:26:02 56a79efb78d64d03ae38b2a914ebced3  22034 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+WARNING  2023-08-02 11:26:02 66669cc4f9c94ac2af34d832aa0b6c56  22034 --- 18       [app_basket.views] list                     : {'2': {'quantity': 1, 'price': 5000.0}}
+INFO     2023-08-02 11:26:14 5ec5aa94967f4e57badc37ad75235e99  22034 --- 32       [app_basket.views] create                   : {'2': {'quantity': 2, 'price': 5000.0}}
+INFO     2023-08-02 11:26:14 5ec5aa94967f4e57badc37ad75235e99  22034 --- 36       [app_basket.views] create                   : Cart created successfully: Added 1 units of 'Stuxnet Hoodie' to the cart.
+INFO     2023-08-02 11:29:03 64842ea902d24f3f9bf07b3fd7c53dee  22034 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:29:03 0992ac198abd44689427b06f66e37909  22034 --- 155      [app_catalog.views] list                     : Accessing popular items view set.
+INFO     2023-08-02 11:29:03 87371c7f5045429faf8309e155af55ad  22034 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:29:03 87371c7f5045429faf8309e155af55ad  22034 --- 18       [app_basket.views] list                     : {}
+INFO     2023-08-02 11:29:03 5349f9ba7b7d4671a4bac11dfe2012c3  22034 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:29:03 6caccbe0ae6643d1b8c44331a75c5d8e  22034 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:29:14 82dbeb43682e49babda59701af074e76  22034 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:29:14 80c4f2035fc94f78b8b821327d0eea71  22034 --- 155      [app_catalog.views] list                     : Accessing popular items view set.
+INFO     2023-08-02 11:29:14 e1756dc058064360abc2eba6e82aff34  22034 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:29:14 e1756dc058064360abc2eba6e82aff34  22034 --- 18       [app_basket.views] list                     : {}
+INFO     2023-08-02 11:29:14 0a5e80aea4864a60aba27b057de7d218  22034 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:29:14 6b349b3b3d804b568c60ce696362bb45  22034 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:29:23 944b0fa0a0584b0a8a7af3dd07386400  22034 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:29:23 481441dd2ae14270a21e7c10f4e79d31  22034 --- 155      [app_catalog.views] list                     : Accessing popular items view set.
+INFO     2023-08-02 11:29:23 0416cb95b5114bb69b5d647e65e78dbb  22034 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:29:23 3a0a6423dd6d4973a3b9d979df935e9b  22034 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:29:23 3a0a6423dd6d4973a3b9d979df935e9b  22034 --- 18       [app_basket.views] list                     : {'2': {'quantity': 2, 'price': 5000.0}}
+INFO     2023-08-02 11:29:23 bb4a7c8543414db2b43c35eb43572120  22034 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:29:35 91cdcd63d90d4862b1f6555b642e492c  22034 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:29:35 91cdcd63d90d4862b1f6555b642e492c  22034 --- 18       [app_basket.views] list                     : {}
+INFO     2023-08-02 11:29:35 b78e443ec7664b2fafabb25a7269650f  22034 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:29:35 f4ca6c431d504a61a58e5acae5116ea2  22034 --- 68       [app_catalog.views] retrieve                 :  Successfully accessed product with pk=2

@@ -1,0 +1,38 @@
+WARNING  2023-08-02 11:31:42 4841b84976ea4623bf83172941339201  22662 --- 18       [app_basket.views] list                     : {}
+INFO     2023-08-02 11:31:42 eb3cf27534e049df9042736a580e3a3b  22662 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:33:45 8e0f1d9f46a84f4dbe55294e45c62cf0  22662 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:33:45 8e0f1d9f46a84f4dbe55294e45c62cf0  22662 --- 18       [app_basket.views] list                     : {}
+INFO     2023-08-02 11:33:45 c86290f3747748e9898e1bfb22574c6c  22662 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:36:16 none  23006 --- 668      [django.utils.autoreload] run_with_reloader        : Watching for file changes with StatReloader
+INFO     2023-08-02 11:37:01 none  23085 --- 668      [django.utils.autoreload] run_with_reloader        : Watching for file changes with StatReloader
+INFO     2023-08-02 11:37:06 c4e5d29c1bf544b4b686989b68ca8fd9  23085 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:37:06 c4e5d29c1bf544b4b686989b68ca8fd9  23085 --- 18       [app_basket.views] list                     : {'2': {'quantity': 7, 'price': 5000.0}}
+INFO     2023-08-02 11:37:06 51f8ce46795244ecbc82b78591c90a89  23085 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:38:52 none  23218 --- 668      [django.utils.autoreload] run_with_reloader        : Watching for file changes with StatReloader
+INFO     2023-08-02 11:38:54 5ee8d0a084ac42a3a01de0a8096d844f  23218 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:38:54 5ee8d0a084ac42a3a01de0a8096d844f  23218 --- 18       [app_basket.views] list                     : {'2': {'quantity': 7, 'price': 5000.0}}
+INFO     2023-08-02 11:38:54 bc0c6422b17b4aeaab6625bff191b6b5  23218 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:38:56 b0f7e8077da7470c84081f05c96d4d03  23218 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:38:56 47b6dc1f79454c68bb87c3e160bd6996  23218 --- 155      [app_catalog.views] list                     : Accessing popular items view set.
+INFO     2023-08-02 11:38:56 8f05947d15404aa08773649b97b11ff6  23218 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:38:56 8f05947d15404aa08773649b97b11ff6  23218 --- 18       [app_basket.views] list                     : {'2': {'quantity': 7, 'price': 5000.0}}
+INFO     2023-08-02 11:38:56 62bb4e3359f548a9ba9b4a3545bf6407  23218 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:38:56 b8e404d580ae441f97fb7273c784eb5a  23218 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:39:00 d2538b585c61402a9b7ee134b4302124  23218 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:39:00 263d16abc4e3485f9b3e6530f8d72905  23218 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+INFO     2023-08-02 11:39:01 334a89fdbd8d4e8a9dbe58c16ca50d7a  23218 --- 155      [app_catalog.views] list                     : Accessing popular items view set.
+WARNING  2023-08-02 11:39:01 263d16abc4e3485f9b3e6530f8d72905  23218 --- 18       [app_basket.views] list                     : {'2': {'quantity': 7, 'price': 5000.0}}
+INFO     2023-08-02 11:39:01 9b671a0ee74b47b7b1f7c29c9a8072a8  23218 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:39:01 67be6cfc0cb94d67a4012262c9f79d37  23218 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:39:01 cdb700bc088b4fc6ac17c30e0e6b783d  23218 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:39:01 a6c3b6c27f9a4c19891af293d77c5ea3  23218 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:39:01 a6c3b6c27f9a4c19891af293d77c5ea3  23218 --- 18       [app_basket.views] list                     : {'2': {'quantity': 7, 'price': 5000.0}}
+INFO     2023-08-02 11:39:01 bde7f2ec59cd4ea486b243abe4c72bff  23218 --- 155      [app_catalog.views] list                     : Accessing popular items view set.
+INFO     2023-08-02 11:39:01 d6ca9aa6b51d4bd9b4106270bc403d3d  23218 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:39:02 1b15616b72014d3e9d89d81aceff459b  23218 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:39:02 d409658d838f4b4bbea06230e96ecc62  23218 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:39:02 69fe32f4f45e434e95c325b3f5aa01e4  23218 --- 155      [app_catalog.views] list                     : Accessing popular items view set.
+INFO     2023-08-02 11:39:02 f51648ffb0a34c14af6a6ff120f66a2e  23218 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:39:02 f51648ffb0a34c14af6a6ff120f66a2e  23218 --- 18       [app_basket.views] list                     : {'2': {'quantity': 7, 'price': 5000.0}}
+INFO     2023-08-02 11:39:02 d3ad7f91c3e44193bf83641580bfb3af  23218 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:39:02 4ce8a39726c94b2182b6e2866264d7b9  23218 --- 168      [app_catalog.views] list                     : Accessing limited items view set.

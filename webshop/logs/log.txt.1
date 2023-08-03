@@ -1,0 +1,105 @@
+ERROR    2023-08-02 11:30:46 4f5558a704894a2f9193e1aa61af5889  22034 --- 241      [django.request] log_response             : Internal Server Error: /api/basket
+Traceback (most recent call last):
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/webshop/app_basket/views.py", line 55, in destroy
+    logger.warning(cart_items[0].get('count'))
+                   ~~~~~~~~~~^^^
+IndexError: list index out of range
+WARNING  2023-08-02 11:30:46 0b7c7deb94634909b21d5a6ab7aa9e5e  22034 --- 50       [app_basket.views] destroy                  : 1
+WARNING  2023-08-02 11:30:46 0b7c7deb94634909b21d5a6ab7aa9e5e  22034 --- 249      [app_basket.cart] delete                   : Delete method called for product ID: 2, count: 1
+INFO     2023-08-02 11:30:46 0b7c7deb94634909b21d5a6ab7aa9e5e  22034 --- 53       [app_basket.views] destroy                  : Deletion status: True
+ERROR    2023-08-02 11:30:46 0b7c7deb94634909b21d5a6ab7aa9e5e  22034 --- 241      [django.request] log_response             : Internal Server Error: /api/basket
+Traceback (most recent call last):
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/webshop/app_basket/views.py", line 55, in destroy
+    logger.warning(cart_items[0].get('count'))
+                   ~~~~~~~~~~^^^
+IndexError: list index out of range
+WARNING  2023-08-02 11:30:47 c0039b97a97d40f99de0df5cb2034602  22034 --- 50       [app_basket.views] destroy                  : 1
+WARNING  2023-08-02 11:30:47 c0039b97a97d40f99de0df5cb2034602  22034 --- 249      [app_basket.cart] delete                   : Delete method called for product ID: 2, count: 1
+INFO     2023-08-02 11:30:47 c0039b97a97d40f99de0df5cb2034602  22034 --- 53       [app_basket.views] destroy                  : Deletion status: True
+ERROR    2023-08-02 11:30:47 c0039b97a97d40f99de0df5cb2034602  22034 --- 241      [django.request] log_response             : Internal Server Error: /api/basket
+Traceback (most recent call last):
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/venv/lib64/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/r00tk3y/PycharmProjects/python_django_diploma/webshop/app_basket/views.py", line 55, in destroy
+    logger.warning(cart_items[0].get('count'))
+                   ~~~~~~~~~~^^^
+IndexError: list index out of range
+INFO     2023-08-02 11:31:28 none  22034 --- 266      [django.utils.autoreload] trigger_reload           : /home/r00tk3y/PycharmProjects/python_django_diploma/webshop/app_basket/views.py changed, reloading.
+INFO     2023-08-02 11:31:29 none  22662 --- 668      [django.utils.autoreload] run_with_reloader        : Watching for file changes with StatReloader
+WARNING  2023-08-02 11:31:29 3902f63d381943e08122a0a1539b6e01  22662 --- 50       [app_basket.views] destroy                  : 1
+WARNING  2023-08-02 11:31:29 3902f63d381943e08122a0a1539b6e01  22662 --- 249      [app_basket.cart] delete                   : Delete method called for product ID: 2, count: 1
+INFO     2023-08-02 11:31:29 3902f63d381943e08122a0a1539b6e01  22662 --- 53       [app_basket.views] destroy                  : Deletion status: True
+INFO     2023-08-02 11:31:33 cd90941baf034c5e82abab6e03fd4ff4  22662 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:31:33 cd90941baf034c5e82abab6e03fd4ff4  22662 --- 18       [app_basket.views] list                     : {}
+INFO     2023-08-02 11:31:33 f070856b59174e5e90a15c64356d2e2e  22662 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:31:40 19db8b9468a34839a3e577a601fa4da5  22662 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:31:40 072c6c0cfbb3435ebbaa05fd8006cc55  22662 --- 155      [app_catalog.views] list                     : Accessing popular items view set.
+INFO     2023-08-02 11:31:40 c2df7553117b4a8d80e155dae35384d3  22662 --- 168      [app_catalog.views] list                     : Accessing limited items view set.
+INFO     2023-08-02 11:31:40 cf09f8069c0a4e49a7134673996e9ccc  22662 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.
+WARNING  2023-08-02 11:31:40 cf09f8069c0a4e49a7134673996e9ccc  22662 --- 18       [app_basket.views] list                     : {}
+INFO     2023-08-02 11:31:40 ed931e49bb38439d8f8c96c17307b357  22662 --- 34       [app_catalog.views] list                     : Category list retrieved successfully.
+INFO     2023-08-02 11:31:42 4841b84976ea4623bf83172941339201  22662 --- 17       [app_basket.views] list                     : Listing carts for the authenticated user.

@@ -68,23 +68,29 @@ To set up the project locally for development, follow these steps:
 
 2. **Install Dependencies**
     ```
+    cd webshop
     pip install -r requirements.txt
     ```
-3.  **Migrate Database**
+3. **Frontend**
+   ```
+   Enter the django_frontend directory and find a detailed README.md about
+   installation of the frontend
+   ```
+4. **Migrate Database**
     ```
     python manage.py makemigrations
     python manage.py migrate
     ```
-4. **Create a superuser**
+5. **Create a superuser**
    ```
    python mange.py createsuperuser
    ```
-5. **Set up env variables**
+6. **Set up env variables**
    ```
    1. Remove the .template in webshop/.env.template
    2. Set desired environment variables
    ```
-6. ```
+7. ```
    python manage.py shell
    
    from django.core.management.utils import get_random_secret_key

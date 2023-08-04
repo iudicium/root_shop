@@ -79,7 +79,21 @@ To set up the project locally for development, follow these steps:
    ```
    python mange.py createsuperuser
    ```
-
+5. **Set up env variables**
+   ```
+   1. Remove the .template in webshop/.env.template
+   2. Set desired environment variables
+   ```
+6. ```
+   python manage.py shell
+   
+   from django.core.management.utils import get_random_secret_key
+   print(get_random_secret_key())
+   
+   >>>gw^9ej(l4vq%d_06xig$vw+b(-@#00@8l7jlv77=sq5r_sf3nu
+   Random key generator, obviosly do not use the one above.
+   ```
+   
 ## Usage
 1. **Running server**
    ```

@@ -112,6 +112,7 @@ To set up the project locally for development, follow these steps:
    ```
 3. ***Docker***
    ```
+    Apply migrations before running
     docker-compose up -d
    ```
 

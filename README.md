@@ -1,7 +1,6 @@
  # *R00T SHOP*
 
-*
-I've designed a versatile ecommerce framework. It comes equipped with an intuitive user interface and a powerful set of features, ensuring a seamless shopping experience for customers. This framework represents a significant step in enhancing my own skills while providing a valuable resource for others to build their successful online businesses.*
+*I've designed a versatile ecommerce framework. It comes equipped with an intuitive user interface and a powerful set of features, ensuring a seamless shopping experience for customers. This framework represents a significant step in enhancing my own skills while providing a valuable resource for others to build their successful online businesses.*
 
 
 
